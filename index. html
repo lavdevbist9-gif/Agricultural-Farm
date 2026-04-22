@@ -1,0 +1,176 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>Narendra Krishi Farm</title>
+
+<style>
+*{margin:0;padding:0;box-sizing:border-box;font-family:Arial;}
+
+header{
+    background: linear-gradient(to right, green, darkgreen);
+    color:white;
+    padding:20px;
+    text-align:center;
+}
+
+nav{
+    background:#222;
+    display:flex;
+    justify-content:center;
+    flex-wrap:wrap;
+}
+
+nav a{
+    color:white;
+    padding:15px;
+    text-decoration:none;
+    transition:0.3s;
+}
+
+nav a:hover{
+    background:green;
+}
+
+.hero{
+    background:url('https://images.unsplash.com/photo-1501004318641-b39e6451bec6');
+    background-size:cover;
+    background-position:center;
+    color:white;
+    padding:100px 20px;
+    text-align:center;
+}
+
+.hero h2{
+    font-size:40px;
+}
+
+.hero p{
+    margin:15px 0;
+}
+
+.btn{
+    background:green;
+    color:white;
+    padding:10px 20px;
+    text-decoration:none;
+    border-radius:5px;
+}
+
+section{
+    padding:40px 20px;
+    text-align:center;
+}
+
+.products{
+    display:flex;
+    flex-wrap:wrap;
+    justify-content:center;
+    gap:20px;
+}
+
+.card{
+    width:250px;
+    border-radius:10px;
+    overflow:hidden;
+    box-shadow:0 4px 10px rgba(0,0,0,0.2);
+    transition:0.3s;
+}
+
+.card:hover{
+    transform:scale(1.05);
+}
+
+.card img{
+    width:100%;
+    height:150px;
+    object-fit:cover;
+}
+
+.card h3{
+    padding:10px;
+}
+
+.card p{
+    padding:0 10px 10px;
+}
+
+.contact{
+    background:#f2f2f2;
+}
+
+footer{
+    background:#111;
+    color:white;
+    padding:15px;
+    text-align:center;
+}
+</style>
+</head>
+
+<body>
+
+<header>
+<h1>Narendra Krishi Farm</h1>
+<p>Organic Sugarcane, Jaggery & Fish Farming</p>
+</header>
+
+<nav>
+<a href="#home">Home</a>
+<a href="#about">About</a>
+<a href="#products">Products</a>
+<a href="#contact">Contact</a>
+</nav>
+
+<section class="hero" id="home">
+<h2>Welcome to Narendra Krishi Farm</h2>
+<p>Fresh • Organic • Natural</p>
+<a href="#contact" class="btn">Contact Now</a>
+</section>
+
+<section id="about">
+<h2>About Us</h2>
+<p>We produce high-quality organic sugarcane, jaggery (गुँड), and fish in a peaceful natural environment.</p>
+</section>
+
+<section id="products">
+<h2>Our Products</h2>
+
+<div class="products">
+
+<div class="card">
+<img src="https://images.unsplash.com/photo-1604908176997-125f25cc6f3d">
+<h3>Jaggery (गुँड)</h3>
+<p>Pure organic local jaggery.</p>
+</div>
+
+<div class="card">
+<img src="https://images.unsplash.com/photo-1598514982533-0b3c1c86d5c3">
+<h3>Sugarcane (उखु)</h3>
+<p>Fresh and healthy sugarcane.</p>
+</div>
+
+<div class="card">
+<img src="https://images.unsplash.com/photo-1544947950-fa07a98d237f">
+<h3>Fish</h3>
+<p>Grass Carp and other varieties.</p>
+</div>
+
+</div>
+
+</section>
+
+<section id="contact" class="contact">
+<h2>Contact Us</h2>
+<p><b>Owner:</b> Narendra Negi</p>
+<p><b>Phone:</b> <a href="tel:98XXXXXXXX">Call Now</a></p>
+<p><b>Location:</b> Nepal</p>
+</section>
+
+<footer>
+<p>© 2026 Narendra Krishi Farm | Designed by Lavdev</p>
+</footer>
+
+</body>
+</html>
